@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Gsap features</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img
+            data-speed=".6"
+            class="hero"
+            src="./assets/img/hero.png"
+            alt="hero"
+          />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-title">creative scroll</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img
+                  class="gallery__item"
+                  src="./assets/img/common/1.jpg"
+                  alt="Shake about"
+                />
+                <img
+                  class="gallery__item"
+                  src="./assets/img/common/2.jpg"
+                  alt="John Wick"
+                />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+
+                <img
+                  class="gallery__item"
+                  src="./assets/img/common/6.jpg"
+                  alt="Alt"
+                />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ducimus commodi aliquid dicta? Quasi facilis placeat
+                    temporibus, nesciunt sit veniam deserunt praesentium
+                    voluptate incidunt ut debitis soluta esse est architecto
+                    distinctio.
+                  </p>
+                </div>
+
+                <img
+                  class="gallery__item"
+                  src="./assets/img/common/4.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="gallery__item"
+                  src="./assets/img/common/5.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="gallery__item"
+                  src="./assets/img/common/3.jpg"
+                  alt="Alt"
+                />
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./common/gsap/gsap.min.js"></script>
+    <script src="./common/gsap/ScrollTrigger.min.js"></script>
+    <script src="./common/gsap/ScrollSmoother.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
